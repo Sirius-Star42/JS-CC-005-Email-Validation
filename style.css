@@ -1,0 +1,59 @@
+body {
+    background-color: yellow;
+    border: solid 5px black;
+    margin-top: 5em;
+    
+}
+
+#banner {
+    border: solid 2px red;
+    margin: 3em;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form {
+    border: solid 2px lightslategray;
+    margin: 3em;
+    padding: 3em;
+    text-align: left;
+    border-radius: 1em;
+    background-color: rgba(125, 189, 197, 0.664);
+    display: flex;
+    flex-direction: column;
+    margin-right: 15em;
+    border-style: double;
+    
+    
+    
+    
+}
+
+form button {
+    display: block;
+    border-radius: 0.4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+
+form input {
+    border-radius: 0.4em;
+    margin-bottom: 1em;
+    
+
+}
+
+img {
+    
+    position: absolute;
+    z-index: -1;
+    border-radius: 5px;
+    
+    
+    
+
+}
