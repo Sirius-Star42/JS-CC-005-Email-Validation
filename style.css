@@ -1,12 +1,12 @@
 body {
-    background-color: yellow;
-    border: solid 5px black;
+    
+    
     margin-top: 5em;
     
 }
 
 #banner {
-    border: solid 2px red;
+   
     margin: 3em;
     overflow: auto;
     display: flex;
@@ -37,7 +37,11 @@ form button {
     border-radius: 0.4em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    
+    border-width: 0.25em;
+    width: fit-content;
+    padding: 0.4em 1.5em 0.4em 1.5em;
+    text-align: center;
+    margin: auto;
 }
 
 form input {
