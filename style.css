@@ -1,18 +1,13 @@
 body {
-    
-    
     margin-top: 5em;
-    
 }
 
 #banner {
-   
     margin: 3em;
     overflow: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 form {
@@ -26,10 +21,6 @@ form {
     flex-direction: column;
     margin-right: 15em;
     border-style: double;
-    
-    
-    
-    
 }
 
 form button {
@@ -47,17 +38,10 @@ form button {
 form input {
     border-radius: 0.4em;
     margin-bottom: 1em;
-    
-
 }
 
 img {
-    
     position: absolute;
     z-index: -1;
     border-radius: 5px;
-    
-    
-    
-
 }
