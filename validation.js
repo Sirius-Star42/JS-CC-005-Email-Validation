@@ -5,10 +5,12 @@ function validateForm() {
 
     if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= x.length) {
         alert("Gecerli email adresi girin")
+        return false
+    } else if (x.length <= dotpos + 4) {
+        alert("Email adresi geçerli")
         return true
     } else {
-        alert("Email adresi geçerli")
+        alert("Gecerli email adresi girin")
         return false
     }
-
 }
